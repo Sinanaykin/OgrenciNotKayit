@@ -8,3 +8,16 @@ C:\Users\dbhsoft\source\repos\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debu
 C:\Users\dbhsoft\source\repos\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.csproj.CoreCompileInputs.cache
 C:\Users\dbhsoft\source\repos\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.exe
 C:\Users\dbhsoft\source\repos\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.pdb
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\bin\Debug\Öğrenci_Not_Kayıt.exe.config
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\bin\Debug\Öğrenci_Not_Kayıt.exe
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\bin\Debug\Öğrenci_Not_Kayıt.pdb
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.csprojAssemblyReference.cache
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.FrmGiris.resources
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.FrmOgretmen.resources
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.Properties.Resources.resources
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.csproj.GenerateResource.cache
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.csproj.CoreCompileInputs.cache
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.exe
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.pdb
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.FrmDuyuruOluştur.resources
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.FrmDuyuruListesi.resources

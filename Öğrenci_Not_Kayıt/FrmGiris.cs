@@ -41,6 +41,7 @@ namespace Öğrenci_Not_Kayıt
             if(dr.Read())
             {
                 FrmOgretmen frm = new FrmOgretmen();
+                frm.numara = MskOgretmenNumara.Text; //numara ya  MASKEDTEXT DEKİ OGRETMENİN TEXTİNİ ATA
                 frm.Show();
                 MessageBox.Show("Sisteme Hoş Geldiniz", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
