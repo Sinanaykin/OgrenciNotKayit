@@ -21,3 +21,5 @@ C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Ö�
 C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.pdb
 C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.FrmDuyuruOluştur.resources
 C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.FrmDuyuruListesi.resources
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.FrmMesajlar.resources
+C:\Users\dbhsoft\Desktop\Öğrenci_Not_Kayıt\Öğrenci_Not_Kayıt\obj\Debug\Öğrenci_Not_Kayıt.FrmOgrenci.resources

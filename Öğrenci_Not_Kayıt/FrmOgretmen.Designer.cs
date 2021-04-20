@@ -72,7 +72,7 @@ namespace Öğrenci_Not_Kayıt
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.BtnDuyuruListesi = new System.Windows.Forms.Button();
-            this.BtnYardım = new System.Windows.Forms.Button();
+            this.BtnCıkıs = new System.Windows.Forms.Button();
             this.BtnMesajlar = new System.Windows.Forms.Button();
             this.BtnDuyuruOlustur = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
@@ -99,7 +99,7 @@ namespace Öğrenci_Not_Kayıt
             this.groupBox1.Size = new System.Drawing.Size(252, 126);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Kullanıcı";
             // 
             // LblNumara
             // 
@@ -167,6 +167,7 @@ namespace Öğrenci_Not_Kayıt
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Location = new System.Drawing.Point(112, 226);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(125, 132);
@@ -247,7 +248,7 @@ namespace Öğrenci_Not_Kayıt
             this.groupBox2.Size = new System.Drawing.Size(252, 420);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Text = "Yeni Öğrenci Kaydı";
             // 
             // groupBox3
             // 
@@ -269,7 +270,7 @@ namespace Öğrenci_Not_Kayıt
             this.groupBox3.Size = new System.Drawing.Size(279, 349);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "groupBox3";
+            this.groupBox3.Text = "Öğrenci Not Bilgisi";
             // 
             // label15
             // 
@@ -389,7 +390,6 @@ namespace Öğrenci_Not_Kayıt
             this.groupBox4.Size = new System.Drawing.Size(220, 172);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "groupBox4";
             // 
             // BtnListele
             // 
@@ -441,6 +441,7 @@ namespace Öğrenci_Not_Kayıt
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(8, 19);
             this.dataGridView1.Name = "dataGridView1";
@@ -461,6 +462,7 @@ namespace Öğrenci_Not_Kayıt
             // 
             // dataGridView2
             // 
+            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(8, 19);
             this.dataGridView2.Name = "dataGridView2";
@@ -474,7 +476,7 @@ namespace Öğrenci_Not_Kayıt
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.BtnDuyuruListesi);
-            this.groupBox7.Controls.Add(this.BtnYardım);
+            this.groupBox7.Controls.Add(this.BtnCıkıs);
             this.groupBox7.Controls.Add(this.BtnMesajlar);
             this.groupBox7.Controls.Add(this.BtnDuyuruOlustur);
             this.groupBox7.Location = new System.Drawing.Point(712, 555);
@@ -494,14 +496,15 @@ namespace Öğrenci_Not_Kayıt
             this.BtnDuyuruListesi.UseVisualStyleBackColor = true;
             this.BtnDuyuruListesi.Click += new System.EventHandler(this.BtnDuyuruListesi_Click_1);
             // 
-            // BtnYardım
+            // BtnCıkıs
             // 
-            this.BtnYardım.Location = new System.Drawing.Point(482, 19);
-            this.BtnYardım.Name = "BtnYardım";
-            this.BtnYardım.Size = new System.Drawing.Size(75, 23);
-            this.BtnYardım.TabIndex = 3;
-            this.BtnYardım.Text = "Yardım";
-            this.BtnYardım.UseVisualStyleBackColor = true;
+            this.BtnCıkıs.Location = new System.Drawing.Point(482, 19);
+            this.BtnCıkıs.Name = "BtnCıkıs";
+            this.BtnCıkıs.Size = new System.Drawing.Size(75, 23);
+            this.BtnCıkıs.TabIndex = 3;
+            this.BtnCıkıs.Text = "Çıkış";
+            this.BtnCıkıs.UseVisualStyleBackColor = true;
+            this.BtnCıkıs.Click += new System.EventHandler(this.BtnCıkıs_Click);
             // 
             // BtnMesajlar
             // 
@@ -511,6 +514,7 @@ namespace Öğrenci_Not_Kayıt
             this.BtnMesajlar.TabIndex = 2;
             this.BtnMesajlar.Text = "Mesajlar";
             this.BtnMesajlar.UseVisualStyleBackColor = true;
+            this.BtnMesajlar.Click += new System.EventHandler(this.BtnMesajlar_Click);
             // 
             // BtnDuyuruOlustur
             // 
@@ -526,6 +530,7 @@ namespace Öğrenci_Not_Kayıt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1452, 608);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
@@ -535,7 +540,7 @@ namespace Öğrenci_Not_Kayıt
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmOgretmen";
-            this.Text = "FrmOgretmen";
+            this.Text = "Öğretmen Ekranı";
             this.Load += new System.EventHandler(this.FrmOgretmen_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -599,7 +604,7 @@ namespace Öğrenci_Not_Kayıt
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.Button BtnYardım;
+        private System.Windows.Forms.Button BtnCıkıs;
         private System.Windows.Forms.Button BtnMesajlar;
         private System.Windows.Forms.Button BtnDuyuruOlustur;
         private System.Windows.Forms.Button BtnDuyuruListesi;

@@ -241,5 +241,17 @@ namespace Öğrenci_Not_Kayıt
             FrmDuyuruListesi frm = new FrmDuyuruListesi();
             frm.Show();
         }
+
+        private void BtnMesajlar_Click(object sender, EventArgs e)
+        {
+            FrmMesajlar frm = new FrmMesajlar();
+            frm.numara = LblNumara.Text; //numara bilgisi mesajlar formuna taşıyoruz önemli bunu yapmadan numarayı orda kullanamayız
+            frm.Show();
+        }
+
+        private void BtnCıkıs_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

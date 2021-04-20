@@ -62,6 +62,7 @@ namespace Öğrenci_Not_Kayıt
             if (dr.Read())
             {
                 FrmOgrenci frm = new FrmOgrenci();
+                frm.numara = MskOgrenciNumara.Text;
                 frm.Show();
                 MessageBox.Show("Sisteme Hoş Geldiniz", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
