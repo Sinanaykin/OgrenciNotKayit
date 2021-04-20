@@ -270,7 +270,7 @@ namespace Öğrenci_Not_Kayıt
             this.groupBox3.Size = new System.Drawing.Size(279, 349);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Öğrenci Not Bilgisi";
+            this.groupBox3.Text = "Öğrenci Not  Giriş";
             // 
             // label15
             // 
@@ -437,7 +437,7 @@ namespace Öğrenci_Not_Kayıt
             this.groupBox5.Size = new System.Drawing.Size(709, 254);
             this.groupBox5.TabIndex = 5;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "groupBox5";
+            this.groupBox5.Text = "Öğrenciler";
             // 
             // dataGridView1
             // 
@@ -458,7 +458,7 @@ namespace Öğrenci_Not_Kayıt
             this.groupBox6.Size = new System.Drawing.Size(717, 273);
             this.groupBox6.TabIndex = 6;
             this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "groupBox6";
+            this.groupBox6.Text = "Notlar";
             // 
             // dataGridView2
             // 
@@ -484,7 +484,6 @@ namespace Öğrenci_Not_Kayıt
             this.groupBox7.Size = new System.Drawing.Size(612, 51);
             this.groupBox7.TabIndex = 7;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "groupBox7";
             // 
             // BtnDuyuruListesi
             // 

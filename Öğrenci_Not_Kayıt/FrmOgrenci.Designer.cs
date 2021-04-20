@@ -72,7 +72,7 @@ namespace Öğrenci_Not_Kayıt
             this.groupBox1.Size = new System.Drawing.Size(317, 132);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Kullanıcı";
             // 
             // LblNumara
             // 
@@ -121,7 +121,6 @@ namespace Öğrenci_Not_Kayıt
             this.groupBox2.Size = new System.Drawing.Size(479, 231);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
             // 
             // BtnCikis
             // 
@@ -182,7 +181,7 @@ namespace Öğrenci_Not_Kayıt
             this.groupBox3.Size = new System.Drawing.Size(327, 317);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "groupBox3";
+            this.groupBox3.Text = "Notlar";
             // 
             // LblDurum
             // 
@@ -307,7 +306,7 @@ namespace Öğrenci_Not_Kayıt
             this.groupBox4.Size = new System.Drawing.Size(479, 261);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "groupBox4";
+            this.groupBox4.Text = "Fotoğraf";
             // 
             // pictureBox1
             // 
